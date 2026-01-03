@@ -30,7 +30,7 @@
       ]
     },
     "router": {
-      "ospf": {
+      "Cisco-IOS-XE-ospf:ospf": {
         "id": 1,
         "router-id": "2.2.2.2",
         "network": [
