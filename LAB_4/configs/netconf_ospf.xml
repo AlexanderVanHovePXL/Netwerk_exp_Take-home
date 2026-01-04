@@ -1,0 +1,21 @@
+<config>
+  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native"
+          xmlns:ios-ospf="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+    <router>
+      <ios-ospf:ospf>
+        <ios-ospf:id>1</ios-ospf:id>
+        <ios-ospf:router-id>2.2.2.2</ios-ospf:router-id>
+        <ios-ospf:network>
+          <ios-ospf:ip>10.1.1.0</ios-ospf:ip>
+          <ios-ospf:mask>255.255.255.0</ios-ospf:mask>
+          <ios-ospf:area>0</ios-ospf:area>
+        </ios-ospf:network>
+        <ios-ospf:network>
+          <ios-ospf:ip>192.168.20.0</ios-ospf:ip>
+          <ios-ospf:mask>255.255.255.0</ios-ospf:mask>
+          <ios-ospf:area>0</ios-ospf:area>
+        </ios-ospf:network>
+      </ios-ospf:ospf>
+    </router>
+  </native>
+</config>
